@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/javascript.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="top">
+            <div class="flexGroup">
+                <!-- logo -->
+                <div class="logo"><img src="./img/logo.png" alt=""></div>
+                <!-- marquee -->
+                <div class="marqueeGroup">
+                    <div class="title"><p>最新消息</p></div>
+                    <div class="marquee">
+                        <p>最新消息...................test1223123</p>
+                        <p>最新消息...................test1223123</p>
+                        <p>最新消息...................test1223123</p>
+                    </div>
+                </div>
+            </div>
+            <ul>
+                <!-- 語言 -->
+                <li class="language">
+                    <select name="" id="">
+                        <option value="">繁體中文</option>
+                        <option value="">簡體中文</option>
+                        <option value="">English</option>
+                        <option value="">日本語</option>
+                    </select>
+                    <div class="languageIc">
+                        <i></i>
+                    </div>
+                </li>
+                <!-- nav  -->
+                <li><a href="" class="active">首頁</a></li>
+                <li><a href="">體育賽事</a></li>
+                <li><a href="">真人娛樂</a></li>
+                <li><a href="">老虎機</a></li>
+                <li><a href="">捕魚機</a></li>
+                <li><a href="">棋牌遊戲</a></li>
+                <li><a href="">優惠中心</a></li>
+                <li><a href="">VIP會員</a></li>
+            </ul>
+        </div>
+        <!-- 登入 -->
+        <div class="login">
+            <form action="">
+                <label for="">
+                    <input type="text" placeholder="帳號">
+                </label>
+                <label for="">
+                    <input type="password" placeholder="密碼">
+                    <i class="forget">?</i>
+                </label>
+            </form>
+            <div class="buttonGroup">
+                <button>登入</button>
+                <button>點擊註冊</button>
+            </div>
+        </div>
+    </header>
+    <main class="home">
+        <!-- banner -->
+        <div class="bannerGroup">
+            <div class="banner">
+                <div class="contentTxt">
+                    <div class="logo"></div>
+                    <div class="title"></div>
+                    <div class="subTxt"></div>
+                </div>
+                <div class="bannerPic"></div>
+            </div>
+        </div>
+        <!-- 遊戲項目 -->
+        <div class="gameGroup">
+            <div class="title">
+                <i></i>
+                <p>遊戲項目</p>
+                <i></i>
+            </div>
+            <!-- 卡片 -->
+            <ul class="gameCard">
+                <li>
+                    <i class="sport"></i>  
+                </li>
+                <li>
+                    <i class="live"></i>
+                </li>
+                <li>
+                    <i class="slot"></i>
+                </li>
+                <li>
+                    <i class="fish"></i>
+                </li>
+                <li>
+                    <i class="board"></i>
+                </li>
+            </ul>
+        </div>
+        <!-- 最新活動 -->
+        <div class="newsGroup">
+            <div class="title">
+                <i></i>
+                <p>最新活動</p>
+                <i></i>
+            </div>
+            <!-- 輪播 -->
+            <section class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/new1.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/new2.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/new1.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/new2.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div> 
+                <div class="swiper-button-next"></div>
+            </section>
+        </div>
+        <!-- 熱門推薦 -->
+        <div class="hotGroup">
+            <div class="title">
+                <i></i>
+                <p>熱門推薦</p>
+                <i></i>
+            </div>
+            <div class="rank">
+                <div class="left">
+                    <img src="./img/hot1.png" alt="">
+                </div>
+                <div class="right">
+                    <div class="flexGroup1">
+                        <img src="./img/hot2.png" alt="">
+                        <img src="./img/hot3.png" alt="">
+                        <img src="./img/hot4.png" alt="">
+                    </div>
+                    <div class="flexGroup2">
+                        <img src="./img/morehot.png" alt="">
+                        <img src="./img/hot5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 產品優勢 -->
+        <div class="product">
+            <div class="title">
+                <i></i>
+                <p>產品優勢</p>
+                <i></i>
+            </div>
+            <div class="productPo">
+                <ul class="productGroup">
+                    <li>
+                        <i class="assuranceIcon"></i>
+                        <div class="txtItem">
+                            <span>專業保證</span>
+                            <p class="content">
+                                每天为您提供近多場精彩體育赛事，更有真人、彩票、電子遊戲等多種娛樂方式選擇，讓您擁有完美遊戲體驗。
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="payIcon"></i>
+                        <div class="txtItem">
+                            <span>多方支付</span>
+                            <p class="content">
+                                多元支付方式，讓你可隨著匯率趨勢，轉變支付型態，帶給客戶最大效益。
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="productGroup">
+                    <li>
+                        <i class="fastIcon"></i>
+                        <div class="txtItem">
+                            <span>便捷快速</span>
+                            <p class="content">
+                                本站自主研發全套的終端應用，讓你隨時隨地都能享受投注的樂趣。全天24小時客服在線服務，解決所有您會遇到的問題!
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="safeIcon"></i>
+                        <div class="txtItem">
+                            <span>安全保障</span>
+                            <p class="content">採用128加密技術和嚴格的安全管理系統，使客戶的資金與資料得到最完善的保護!</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+        <div class="footerGroup">
+            <ul class="navGroup">
+                <li class="active"><a href="">最新公告</a></li>
+                <li><a href="">優惠</a></li>
+                <li><a href="">VIP會員</a></li>
+                <li><a href="">幫助中心</a></li>
+                <li><a href="">關於我們</a></li>
+                <li><a href="">加入我們</a></li>
+            </ul>
+            <div class="flexGroup">
+                <div class="content">
+                    <div class="title">聯絡我們</div>
+                    <div class="contentGroup">
+                        <div class="iconGroup">
+                            <i class="line"></i>
+                            <i class="weChat"></i>
+                            <i class="fb"></i>
+                            <i class="twitter"></i>
+                        </div>
+                        <button class="gcLogo">
+                            <i></i>
+                        </button>
+                        <button class="hrBtn">24HR線上客服</button>
+                    </div>
+                </div>
+                <div class="logoGroup">
+                    <div class="sponsor">
+                        <div class="title">合作廠商</div>
+                        <div class="sponsorGroup">
+                            <i class="JILI"></i>
+                            <i class="SP"></i>
+                            <i class="AB"></i>
+                            <i class="sport"></i>
+                            <i class="DG"></i>
+                            <i class="PLS"></i>
+                            <i class="IFUN"></i>
+                            <i class="BNG"></i>
+                            <i class="TPG"></i>
+                            <i class="OG"></i>
+                            <i class="MG"></i>
+                            <i class="RSG"></i>
+                            <i class="PNG"></i>
+                        </div>
+                    </div>
+                    <div class="pay">
+                        <div class="title">支付方式</div>
+                        <div class="payGroup">
+                            <i class="bank"></i>
+                            <i class="USDT"></i>
+                            <i class="SP"></i>
+                            <i class="VW"></i>
+                            <i class="ETH"></i>
+                            <i class="BC"></i>
+                            <i class="imove"></i>
+                            <i class="IW"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="bg"> </div>
+</body>
+</html>

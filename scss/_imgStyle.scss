@@ -1,0 +1,173 @@
+//背景
+body .bg {
+    background: url("../img/bgn.png") no-repeat ;
+    background-size: 100%;
+}
+//banner logo
+.home .banner .contentTxt .logo {
+    background: url("../img/bannerLogo.png") no-repeat center;
+    background-size: contain;
+}
+//banner welcome
+.home .banner .contentTxt .title {
+    background: url("../img/bannerW.png") no-repeat center;
+    background-size: contain;
+}
+//banner 文字
+.home .banner .contentTxt .subTxt {
+    background: url("../img/bannerTxt.png") no-repeat center;
+    background-size: contain;
+}
+//banner 人
+.home .banner .bannerPic {
+    background: url("../img/bannerPerson.png") no-repeat center;
+    background-size: contain;
+}
+//桌子
+.home .gameGroup {
+    background: url("../img/boardBg.png") no-repeat center;
+}
+//遊戲項目標題 icon
+.home .gameGroup .title i {
+    background: url("../img/subIcon.png") no-repeat center;
+    background-size: contain;
+}
+//遊戲項目卡片
+.home .gameGroup .gameCard li i {
+    background: url("../img/card.png") no-repeat;
+    background-size: 500%;
+}
+//遊戲項目卡片 hover
+.home .gameGroup .gameCard li i:hover {
+    background: url("../img/CardHover.png") no-repeat;
+    background-size: 500%;
+}
+//最新活動標題 icon
+.home .newsGroup .title i {
+    background: url("../img/subIcon.png") no-repeat center;
+    background-size: contain;
+}
+//熱門推薦標題 icon
+.home .hotGroup .title i {
+    background: url("../img/subIconGreen.png") no-repeat center;
+    background-size: contain;
+} 
+//產品優勢標題 icon
+.home .product .title i {
+    background: url("../img/subIconGreen.png") no-repeat center;
+    background-size: contain;
+}
+//專業保障
+.home .product .productGroup li .assuranceIcon {
+    background: url("../img/product1.png") no-repeat center;
+}
+//多方支付
+.home .product .productGroup li .payIcon {
+    background: url("../img/product4.png") no-repeat center;
+}
+//便捷快速
+.home .product .productGroup li .fastIcon {
+    background: url("../img/product2.png") no-repeat center;
+}
+//安全保障
+.home .product .productGroup li .safeIcon {
+    background: url("../img/product3.png") no-repeat center;
+}
+//聯絡 icon
+footer .footerGroup .flexGroup .content .iconGroup i {
+    background: url("../img/contantIcon.png") no-repeat;
+    background-size: 500%;
+}
+//gc logo
+footer .footerGroup .flexGroup .content .gcLogo i {
+    background: url("../img/GCLogo.png") no-repeat center;
+    background-size: contain;
+}
+footer .footerGroup .flexGroup .logoGroup .sponsor .sponsorGroup .JILI {
+    background: url("../img/sponsor/jili.png") no-repeat center;
+    background-size: contain;
+}
+footer .footerGroup .flexGroup .logoGroup .sponsor .sponsorGroup .SP {
+    background: url("../img/sponsor/SP.png") no-repeat center;
+    background-size: contain;
+}
+footer .footerGroup .flexGroup .logoGroup .sponsor .sponsorGroup .AB {
+    background: url("../img/sponsor/AB.png") no-repeat center;
+    background-size: contain;
+}
+footer .footerGroup .flexGroup .logoGroup .sponsor .sponsorGroup .sport {
+    background: url("../img/sponsor/sport.png") no-repeat center;
+    background-size: contain;
+}
+footer .footerGroup .flexGroup .logoGroup .sponsor .sponsorGroup .DG {
+    background: url("../img/sponsor/DG.png") no-repeat center;
+    background-size: contain;
+}
+footer .footerGroup .flexGroup .logoGroup .sponsor .sponsorGroup .PLS {
+    background: url("../img/sponsor/PLS.png") no-repeat center;
+    background-size: contain;
+}
+footer .footerGroup .flexGroup .logoGroup .sponsor .sponsorGroup .IFUN {
+    background: url("../img/sponsor/IFUN.png") no-repeat center;
+    background-size: contain;
+}
+footer .footerGroup .flexGroup .logoGroup .sponsor .sponsorGroup .BNG {
+    background: url("../img/sponsor/BNG.png") no-repeat center;
+    background-size: contain;
+}
+footer .footerGroup .flexGroup .logoGroup .sponsor .sponsorGroup .TPG {
+    background: url("../img/sponsor/TPG.png") no-repeat center;
+    background-size: contain;
+}
+footer .footerGroup .flexGroup .logoGroup .sponsor .sponsorGroup .OG {
+    background: url("../img/sponsor/OG.png") no-repeat center;
+    background-size: contain;
+}
+footer .footerGroup .flexGroup .logoGroup .sponsor .sponsorGroup .MG {
+    background: url("../img/sponsor/MG.png") no-repeat center;
+    background-size: contain;
+}
+footer .footerGroup .flexGroup .logoGroup .sponsor .sponsorGroup .RSG {
+    background: url("../img/sponsor/RSG.png") no-repeat center;
+    background-size: contain;
+}
+footer .footerGroup .flexGroup .logoGroup .sponsor .sponsorGroup .PNG {
+    background: url("../img/sponsor/PNG.png") no-repeat center;
+    background-size: contain;
+}
+footer .footerGroup .flexGroup .logoGroup .pay .payGroup .bank {
+    background: url("../img/pay/bank.png") no-repeat center;
+    background-size: contain;
+}
+footer .footerGroup .flexGroup .logoGroup .pay .payGroup .USDT {
+    background: url("../img/pay/USDT.png") no-repeat center;
+    background-size: contain;
+}
+footer .footerGroup .flexGroup .logoGroup .pay .payGroup .SP {
+    background: url("../img/pay/SP.png") no-repeat center;
+    background-size: contain;
+}
+footer .footerGroup .flexGroup .logoGroup .pay .payGroup .VW {
+    background: url("../img/pay/VW.png") no-repeat center;
+    background-size: contain;
+}
+footer .footerGroup .flexGroup .logoGroup .pay .payGroup .ETH {
+    background: url("../img/pay/ETH.png") no-repeat center;
+    background-size: contain;
+}
+footer .footerGroup .flexGroup .logoGroup .pay .payGroup .BC {
+    background: url("../img/pay/BC.png") no-repeat center;
+    background-size: contain;
+}
+footer .footerGroup .flexGroup .logoGroup .pay .payGroup .imove {
+    background: url("../img/pay/imove.png") no-repeat center;
+    background-size: contain;
+}
+footer .footerGroup .flexGroup .logoGroup .pay .payGroup .IW {
+    background: url("../img/pay/IW.png") no-repeat center;
+    background-size: contain;
+}
+
+
+
+
